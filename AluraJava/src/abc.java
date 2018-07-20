@@ -12,7 +12,7 @@ public class abc {
 	 * 
 	 */
 	public abc() {
-		// TODO CODIGO DEVE SER ESCRITO AQUI
+		// ALTERAÇÃO EXECUTADA NO NETBEANS DO NOTEBOOK
 	}
 
 	/**
