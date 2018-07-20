@@ -9,7 +9,7 @@
 public class saccz {
 
 	/**
-	 * scjkszclmxzcxzknczdvzxm,nbx cxd
+	 * s
 	 */
 	public saccz() {
 		// TODO Auto-generated constructor stub
