@@ -9,7 +9,7 @@
 public class saccz {
 
 	/**
-	 * s
+	 * removi o S e coloquei isto para testar o sincronize
 	 */
 	public saccz() {
 		// TODO Auto-generated constructor stub
