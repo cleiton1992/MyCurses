@@ -12,7 +12,7 @@ public class abc {
 	 * 
 	 */
 	public abc() {
-		// ALTERAÇÃO EXECUTADA NO NETBEANS DO NOTEBOOK
+		// TESTE DE COMMIT UPSTREM
 	}
 
 	/**
