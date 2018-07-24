@@ -4,7 +4,15 @@ public class Fluxo {
 
     public static void main(String[] args) {
         System.out.println("Ini do main");
+        try {
         metodo1();
+       
+        } catch(ArithmeticException | NullPointerException ex) {
+        	String msg = ex.getMessage();
+        	System.out.println("excessão "+ msg);
+        	ex.printStackTrace();
+        	
+        }
         System.out.println("Fim do main");
     }
     
@@ -18,9 +26,9 @@ public class Fluxo {
 
     private static void metodo2() {
         System.out.println("Ini do metodo2");
-        for(int i = 1; i <= 5; i++) {
-            System.out.println(i);
-        }
-        System.out.println("Fim do metodo2");
+        throw new ArithmeticException("Deu Ruim!!  ");
+        //throw ex;
+        
+       // System.out.println("Fim do metodo2");
     }
 }
