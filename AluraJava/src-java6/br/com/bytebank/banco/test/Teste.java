@@ -15,11 +15,13 @@ public class Teste {
         Conta cc2 = new ContaCorrente(22, 22);
         guardador.adiciona(cc2);
         
-
+        Conta cp = new ContaCorrente(22, 22);
+        guardador.adiciona(cp);
+        
         int tamanho = guardador.getQuantidadeDeElementos();
         System.out.println(tamanho);
 
-        Conta ref = guardador.getReferencia(1);
+        Conta ref = (Conta)guardador.getReferencia(0); //cast em (Conta) para transformar em referencia especifica
         System.out.println(ref.getNumero());
 
 
