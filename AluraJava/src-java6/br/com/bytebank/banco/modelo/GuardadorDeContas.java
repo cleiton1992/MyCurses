@@ -11,7 +11,7 @@ public class GuardadorDeContas {
 	}
 	
 	public void adiciona(Conta ref) {
-		this.referencias[0] = ref;
+		this.referencias[this.posicaoLivre] = ref;
 		this.posicaoLivre ++;
 	
 	}
