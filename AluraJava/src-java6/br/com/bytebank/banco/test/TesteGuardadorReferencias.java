@@ -4,7 +4,7 @@ import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.GuardadorDeContas;
 
-public class Teste {
+public class TesteGuardadorReferencias {
 	public static void main(String[] args) {
 		
 		GuardadorDeContas guardador = new GuardadorDeContas();
@@ -19,12 +19,12 @@ public class Teste {
         guardador.adiciona(cp);
         
         int tamanho = guardador.getQuantidadeDeElementos();
-        System.out.println(tamanho);
-
-        Conta ref = (Conta)guardador.getReferencia(0); //cast em (Conta) para transformar em referencia especifica
+        System.out.println("o tamanho do array é " + tamanho);
+        
+        Conta ref = (Conta)guardador.getReferencia(1); //cast em (Conta) para transformar em referencia especifica
         System.out.println(ref.getNumero());
 
-
+        
 	
 	}
 }
