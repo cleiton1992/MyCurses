@@ -33,7 +33,7 @@ public class TesteLeitura2 {
           String titular = linhaScanner.next();
           double saldo = linhaScanner.nextDouble();
 
-                                  System.out.format(new Locale("pt", "BR"), "%s - %04d-%08d, %20s: %05.2f %n", 
+       System.out.format(new Locale("pt", "BR"), "%s - %04d-%08d, %20s: %05.2f %n", 
                                                                                                               tipoConta, agencia, numero, titular, saldo);
 
           linhaScanner.close();
