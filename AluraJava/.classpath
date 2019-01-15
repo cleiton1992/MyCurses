@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="ExFaculdade"/>
 	<classpathentry kind="src" path="src-Java7"/>
 	<classpathentry kind="src" path="src-Java8"/>
+	<classpathentry kind="src" path="Java8-Features"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
